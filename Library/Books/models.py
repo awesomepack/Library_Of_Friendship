@@ -9,6 +9,9 @@ class Author(models.Model):
 
     Name = models.CharField(max_length= 50)
 
+    def __str__(self):
+        return self.Name
+
 class Book(models.Model):
     '''Book information'''
     Name = models.CharField(max_length=25)
@@ -16,7 +19,7 @@ class Book(models.Model):
     pub_date = models.DateField("Date Published")
     Image = models.ImageField("Book Cover")
     Summary = models.CharField(max_length= 500)
-    Author_id = models.ForeignKey(Author , on_delete= models.CASCADE , default= None) 
+    Author_id = models.ForeignKey(Author , on_delete= models.CASCADE , default= None)
 
     def __str__(self):
         return self.Name
