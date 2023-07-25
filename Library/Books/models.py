@@ -28,7 +28,7 @@ class Book(models.Model):
         return len(self.Name)
     
     '''To Do:
-    Delete my current Book object > Delete my current Author Object > Create an Author object > Create a Book object using Book.set.create()'''
+    Continue the django tutorial starting at introducing django admin'''
     
 
 
