@@ -161,3 +161,6 @@ cython_debug/
 
 #Python Scripts
 Library/Library/Secrets.py
+
+#Txt Files
+notes.txt

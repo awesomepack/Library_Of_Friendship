@@ -28,7 +28,14 @@ class Book(models.Model):
         return len(self.Name)
     
     '''To Do:
-    Continue the django tutorial starting at introducing django admin'''
+    Continue the django tutorial starting at part 3:
+    Learning how to use URLconf to map a url pattern to a view
+    What kind of views would my Library application have
+    - Authors page: Displays a list of Authors in the library
+    - Author Details Page: Displays Author details
+    - Books page: Displays a list of books in the library
+    - Book details page: Displays the books details / Should have the ability to comment on the book.
+    '''
     
 
 
